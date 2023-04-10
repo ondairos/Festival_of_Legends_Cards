@@ -1,5 +1,13 @@
-const greetings: string = 'test'
+import express from 'express'
 
-const numbers: number[] = [1, 2, 3]
 
-console.log(greetings, numbers);
+const app = express()
+
+app.get('/', (req, res) => {
+    res.send('Hello')
+})
+
+app.listen(5000, () => {
+    console.log(`Server running at port: 5000`);
+
+})
