@@ -15,7 +15,7 @@ interface CardData {
 }
 
 function App() {
-  const [count, setCount] = useState<number>(0);
+  const [classChoose, setClassChoose] = useState<string>("");
   const [cardData, setCardData] = useState<Card[]>([]);
 
   useEffect(() => {
