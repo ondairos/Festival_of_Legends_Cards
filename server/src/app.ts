@@ -1,5 +1,7 @@
 // imports for typescript express.
 import express, { NextFunction, Application, Request, Response } from 'express'
+import axios from 'axios'
+import cors from 'cors'
 // card data import
 import card_data from './card_data'
 
