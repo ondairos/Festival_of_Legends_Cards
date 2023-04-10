@@ -14,25 +14,34 @@ interface CardData {
   [key: string]: Card[];
 }
 
-function App() {
-  const [classChoose, setClassChoose] = useState<string>("");
+function App(): JSX.Element {
+  const [classChoose, setClassChoose] = useState<string>("warlock");
   const [cardData, setCardData] = useState<Card[]>([]);
 
   useEffect(() => {
     const fetchAllData = async () => {
-      const allDataFetch = await axios.get("/api/druid");
+      const allDataFetch = await axios.get<Card[]>(`/api/${classChoose}`);
       setCardData(allDataFetch.data);
-      console.log(cardData);
+      // console.log(cardData);
     };
     fetchAllData();
-  }, []);
+  }, [classChoose]);
+
+  // change class func
+  const changeClass = () => {
+    setClassChoose("druid");
+    // console.log(classChoose);
+  };
 
   return (
     <div className="App">
       <h1>Festival of Legends Expansion</h1>
       <h2>Druid</h2>
+      <button className="choose-button" onClick={() => changeClass()}>
+        Druid
+      </button>
       <div className="card-grid">
-        {cardData.map((element) => {
+        {cardData.map((element: Card) => {
           return (
             <div className="card" key={element.cardId}>
               <li className="card-name">{element.cardName}</li>
