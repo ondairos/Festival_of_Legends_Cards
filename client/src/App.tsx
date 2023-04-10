@@ -30,15 +30,16 @@ function App() {
     <div className="App">
       <h1>Festival of Legends Expansion</h1>
       <h2>Druid</h2>
-      <div className="card-grid"></div>
-      {cardData.map((element) => {
-        return (
-          <div className="card" key={element.cardId}>
-            <li className="card-name">{element.cardName}</li>
-            <img className="card-image" src={element.cardImg} alt="image" />
-          </div>
-        );
-      })}
+      <div className="card-grid">
+        {cardData.map((element) => {
+          return (
+            <div className="card" key={element.cardId}>
+              <li className="card-name">{element.cardName}</li>
+              <img className="card-image" src={element.cardImg} alt="image" />
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
