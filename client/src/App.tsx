@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
+import Footer from "./components/Footer";
 
 interface Card {
   cardId: string;
@@ -40,6 +41,7 @@ function App() {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 }
