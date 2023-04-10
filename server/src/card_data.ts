@@ -22,6 +22,21 @@ const card_data: CardData = {
             cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e9326c7a9995d8c012b697a1392d6bfc5e5ac04eca882c98ae6e9614ed26695.png",
             cardName: "Peaceful Piper",
         },
+        {
+            cardId: "druid_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e9326c7a9995d8c012b697a1392d6bfc5e5ac04eca882c98ae6e9614ed26695.png",
+            cardName: "Peaceful Piper",
+        },
+        {
+            cardId: "druid_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e9326c7a9995d8c012b697a1392d6bfc5e5ac04eca882c98ae6e9614ed26695.png",
+            cardName: "Peaceful Piper",
+        },
+        {
+            cardId: "druid_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e9326c7a9995d8c012b697a1392d6bfc5e5ac04eca882c98ae6e9614ed26695.png",
+            cardName: "Peaceful Piper",
+        },
         // add more cards here
         {
             cardId: "druid_card_id_10",
