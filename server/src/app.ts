@@ -1,9 +1,12 @@
 // imports for typescript express.
 import express, { NextFunction, Application, Request, Response } from 'express'
 import axios from 'axios'
+// add @types/cors for TypeScript
 import cors from 'cors'
 // card data import
 import card_data from './card_data'
+// imported types from card_data
+import { Card, CardData } from './card_data'
 
 const app: Application = express()
 // code
@@ -15,7 +18,7 @@ app.get('/', (req: Request, res: Response, next: NextFunction) => {
 
 app.get('/:class', (req: Request, res: Response, next: NextFunction) => {
     const class_name: string = req.params.class
-    const cards = card_data[class_name]
+    const cards: Card[] = card_data[class_name]
     // console.log(class_name);
     if (cards) {
         res.json(cards);

@@ -1,12 +1,12 @@
 // single card types
-interface Card {
+export interface Card {
     cardId: string;
     cardImg: string;
     cardName: string;
 }
 
 // cardData type
-interface CardData {
+export interface CardData {
     [key: string]: Card[];
 }
 
