@@ -18,11 +18,11 @@ app.use(cors())
 
 
 
-app.get('/', (req: Request, res: Response, next: NextFunction) => {
+app.get('/api', (req: Request, res: Response, next: NextFunction) => {
     res.send('Hello to Expansion Festival of Legends!')
 })
 
-app.get('/:class', (req: Request, res: Response, next: NextFunction) => {
+app.get('/api/:class', (req: Request, res: Response, next: NextFunction) => {
     const class_name: string = req.params.class
     const cards: Card[] = card_data[class_name]
     // console.log(class_name);
