@@ -36,7 +36,7 @@ function App(): JSX.Element {
   return (
     <div className="App">
       <h1>Festival of Legends Expansion</h1>
-      <h2>Druid</h2>
+      <h2>{classChoose}</h2>
       <button className="choose-button" onClick={() => changeClass()}>
         Druid
       </button>
