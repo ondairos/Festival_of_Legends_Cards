@@ -8,8 +8,14 @@ import card_data from './card_data'
 // imported types from card_data
 import { Card, CardData } from './card_data'
 
+const PORT: string | number = process.env.PORT || 5000;
+
 const app: Application = express()
-// code
+// for json and urlencoded usage in app
+app.use(express.urlencoded({ extended: true }));
+// cross origin 
+app.use(cors())
+
 
 
 app.get('/', (req: Request, res: Response, next: NextFunction) => {
@@ -29,7 +35,7 @@ app.get('/:class', (req: Request, res: Response, next: NextFunction) => {
 
 
 // listen for server
-app.listen(5000, () => {
+app.listen(PORT, () => {
     console.log(`Server running at port: 5000`);
 
 })
