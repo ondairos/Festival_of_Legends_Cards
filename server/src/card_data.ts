@@ -74,11 +74,45 @@ const card_data: CardData = {
             cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31022cbbf0fd43aecc7719ab88cbee2e20ea807c0884118732df83c047976c3a.png",
             cardName: "Baritone Imp",
         },
-        // add more cards here
         {
             cardId: "warlock_card_id_3",
             cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2620bce86e9fa1d37c60c3028b936c8b01403b905450a5be544b7739893bfa79.png",
             cardName: "Felstring Harp",
+        },
+        {
+            cardId: "warlock_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/070c7197749c037072322bac46d4b025bd3f921f2f01279b62341879d9b7073f.png",
+            cardName: "Crescendo",
+        },
+        {
+            cardId: "warlock_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ad9f40e42878732828c128b8d7382a62b6263ce01183cb992d9c2e7d9da0210.png",
+            cardName: "Demonic Dynamics",
+        },
+        {
+            cardId: "warlock_card_id_6",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a9ff1a6aa2938c308bcea790ba60adc06a0ec80615ab6a52e761628232b3b2d5.png",
+            cardName: "Crazed Conductor",
+        },
+        {
+            cardId: "warlock_card_id_7",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7cb97a9743cc4075dcf3891598ff580839eb4ee51ab3a18281d8d8bad6149636.png",
+            cardName: "Opera Soloist",
+        },
+        {
+            cardId: "warlock_card_id_8",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a71ddc29183dc039ddbaec1999b0149dec9662b4e1793b4217089e8250fe786.png",
+            cardName: "Rin, Orchestrator of Doom",
+        },
+        {
+            cardId: "warlock_card_id_9",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a20f086cf97bfb96cd0dd1f9ccb76cec1eddbc76b63d8227c5ae05d1fe812d83.png",
+            cardName: "Dirge of Despair",
+        },
+        {
+            cardId: "warlock_card_id_10",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01b3d72a0b0f288561ce334a2a86805696aade21b49772e5a1d09230145dcb69.png",
+            cardName: "Symphony of Sins",
         },
     ],
     demon_hunter: [
@@ -149,6 +183,162 @@ const card_data: CardData = {
             cardId: "hunter_card_id_10",
             cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/784f33f2d03074c39b2b9b19aa670a55a5dd6776fcc3b833233f70b0c02fcd6c.png",
             cardName: "Stranglethorn Heart",
+        },
+    ],
+    shaman: [
+        {
+            cardId: "shaman_card_id_1",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17e3a40dd2fe318429c6259cfc722acdc11d259135c82b22c49e3292673c2de7.png",
+            cardName: "Melomania",
+        },
+        {
+            cardId: "shaman_card_id_2",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b6d653a86a032f9654d613f10b36a859e286c4bf2d9e48c31e81cb944144bf57.png",
+            cardName: "Saxophone Soloist",
+        },
+        {
+            cardId: "shaman_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/199d392e623284d5ee9401cdd467b2326af9f4b64e348dd3c2972e04668a2894.png",
+            cardName: "Flowrider",
+        },
+        {
+            cardId: "shaman_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/61f94d185b3cc92ca4be676475d82599ab35a14e33531e2a35d8a69d39e62c6d.png",
+            cardName: "Chill Vibes",
+        },
+        {
+            cardId: "shaman_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e715b0cd9265807152d86d7a524af406011b8156a550006114164194e61ae1a.png",
+            cardName: "Jazz Bass",
+        },
+        {
+            cardId: "shaman_card_id_6",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1b468637a33b0698d967cedbd2b2c654823d89867d1d16083adcc989f94539f.png",
+            cardName: "Brass Elemental",
+        },
+        {
+            cardId: "shaman_card_id_7",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8543f8ab25f31243ec962c38190414a9e661e8ce4ede7e3db67da28d9873b8dc.png",
+            cardName: "Altered Chord",
+        },
+        {
+            cardId: "shaman_card_id_8",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b4c168cd6735448129e91ed6437adfaa97e33eb25a11e253e93ae9b07e3e18b.png",
+            cardName: "Inzah",
+        },
+        {
+            cardId: "shaman_card_id_9",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1f24dda0f47ca48c47d4c5f637aad84b31f8d33f470f3caf063c090ba9b855a0.png",
+            cardName: "JIVE, INSECT!",
+        },
+        {
+            cardId: "shaman_card_id_10",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a70f2ce8f92048e1e7d736390bdb7d75894bbd257ffcfe99b2f04ead073273b2.png",
+            cardName: "Pack the House",
+        },
+    ],
+    warrior: [
+        {
+            cardId: "warrior_card_id_1",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/38e47ff3a25c26a70c9115ea862349169f702837687867f74bee9391de8153a3.png",
+            cardName: "Razorfen Rockstar",
+        },
+        {
+            cardId: "warrior_card_id_2",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e18e90231ecca2f075bf1cfcdf90790c4d9317118a1099970c4e652eeb7dd8c8.png",
+            cardName: "Roaring Applause",
+        },
+        {
+            cardId: "warrior_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06c086dce41c50d77172e23872d2ae450e898ca0ee86ba1b69c17f4b1156dcff.png",
+            cardName: "Verse Riff",
+        },
+        {
+            cardId: "warrior_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fcfc2b8f1e69317fd13afef3e96a218e6f2eca0051a273054b46dbcf4e5332e9.png",
+            cardName: "Chorus Riff",
+        },
+        {
+            cardId: "warrior_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49f4e9b70070291c66451f558e4b2fcf96fb3574e460002a0e0cfeda50fb3638.png",
+            cardName: "Power Slider",
+        },
+        {
+            cardId: "warrior_card_id_6",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf8e23654fdfb8a6cd57878b0be91b1c640ac3ea4e1f065228a6aa1afba5e7d0.png",
+            cardName: "Kodohide Drumkit",
+        },
+        {
+            cardId: "warrior_card_id_7",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/54fbaf6e064d97a599fb3722cc5fce199a755abe9f76dbe5a548930a2a39c693.png",
+            cardName: "Rock Master Voone",
+        },
+        {
+            cardId: "warrior_card_id_8",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a74b20099404247e422fb465fe3b077abd5c406cc253a19e7289ba2e5135ca6d.png",
+            cardName: "Blackrock 'n' Roll",
+        },
+        {
+            cardId: "warrior_card_id_9",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/92f0b77d27338cf4a08cce18307a2c0786908d4066fee017b2e688b6271b9625.png",
+            cardName: "Drum Soloist",
+        },
+        {
+            cardId: "warrior_card_id_10",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a64e270bb5014e4019f6be862d8127fdef437f8a755ad4bcb5d2acf360d0d82.png",
+            cardName: "Bridge Riff",
+        },
+    ],
+    death_knight: [
+        {
+            cardId: "dk_card_id_1",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6ca50aee0e962223bbbf2dfab32c5236e6cb6d4e2728611324fd54cfbb74210.png",
+            cardName: "Death Growl",
+        },
+        {
+            cardId: "dk_card_id_2",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30337ababbfb6a7c7728a074a0e9c7cdfeef85e828597a8104eaaae535b88847.png",
+            cardName: "Mosh Pit",
+        },
+        {
+            cardId: "dk_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5696add99f38ba290fbb361c7c151be97213738185aa8cf07dd5d0db1d8ff4fa.png",
+            cardName: "Arcanite Ripper",
+        },
+        {
+            cardId: "dk_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d4808229a86dbc1823acb361108449d23d65e2e881ff742d27071748da7a556.png",
+            cardName: "Death Metal Knight",
+        },
+        {
+            cardId: "dk_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1ad94edba69c8f1831b5c3720d6747526bea3d1d3eaaf8d8170cf281d0209027.png",
+            cardName: "Hardcore Cultist",
+        },
+        {
+            cardId: "dk_card_id_6",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/80f9b36d5fa1cf60ee07ac29385149f2c47937e4a41b11d14300c0ff65f24600.png",
+            cardName: "Harmonic Metal",
+        },
+        {
+            cardId: "dk_card_id_7",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd7eb4b6358a310d129f2cac25c853ed394b11a2910b4534162b9eafa657ce03.png",
+            cardName: "Boneshredder",
+        },
+        {
+            cardId: "dk_card_id_8",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd7eb4b6358a310d129f2cac25c853ed394b11a2910b4534162b9eafa657ce03.png",
+            cardName: "Screaming Banshee",
+        },
+        {
+            cardId: "dk_card_id_9",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7541e08b7e05a898e5e6312c0903e09bc9dc482684111d8324b12f23b58312e9.png",
+            cardName: "Cage Head",
+        },
+        {
+            cardId: "dk_card_id_10",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4260a902f5cd4e7a34372f70844bcde4fdee56ae4aa36b6fedb9238cf3bf98f.png",
+            cardName: "Cinematic Necrotic Explosion",
         },
     ]
 

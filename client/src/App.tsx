@@ -33,17 +33,22 @@ function App(): JSX.Element {
     setClassChoose(c);
   };
 
+  // class title to uppercase and remove _
+  const formatted_class_title = classChoose
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+
   return (
     <div className="App">
       <h1>Festival of Legends Expansion</h1>
-      <h2>{classChoose}</h2>
+      <h2>{formatted_class_title}</h2>
       <ClassButtons changeClass={changeClass} />
       <div className="card-grid">
         {cardData.map((element: Card) => {
           return (
             <div className="card" key={element.cardId}>
-              <li className="card-name">{element.cardName}</li>
               <img className="card-image" src={element.cardImg} alt="image" />
+              <li className="card-name">{element.cardName}</li>
             </div>
           );
         })}
