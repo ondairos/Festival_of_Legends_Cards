@@ -47,21 +47,40 @@ const card_data: CardData = {
     warlock: [
         {
             cardId: "warlock_card_id_1",
-            cardImg: "warlock_card_img_url_1",
-            cardName: "Warlock Card Name 1",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66fb184545c95b2849e8185d790f74189b870eeb1b88db13f0a0d0df1e5472e2.png",
+            cardName: "Void Virtuoso",
         },
         {
             cardId: "warlock_card_id_2",
-            cardImg: "warlock_card_img_url_2",
-            cardName: "Warlock Card Name 2",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31022cbbf0fd43aecc7719ab88cbee2e20ea807c0884118732df83c047976c3a.png",
+            cardName: "Baritone Imp",
         },
         // add more cards here
         {
-            cardId: "warlock_card_id_10",
-            cardImg: "warlock_card_img_url_10",
-            cardName: "Warlock Card Name 10",
+            cardId: "warlock_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2620bce86e9fa1d37c60c3028b936c8b01403b905450a5be544b7739893bfa79.png",
+            cardName: "Felstring Harp",
         },
     ],
+    demon_hunter: [
+        {
+            cardId: "dh_card_id_1",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc687df3dc0697d3c71adbc8938d8a976da83bf2bf740aaa7b2e8ffa1ae3ba21.png",
+            cardName: "Taste of Chaos",
+        },
+        {
+            cardId: "dh_card_id_2",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b676da51d880fdd8193458d5d0a3355ee14d73f6fbbeb230a97f94375f37d12.png",
+            cardName: "Eye of Shadow",
+        },
+        // add more cards here
+        {
+            cardId: "dh_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b5742683d1bb2ec149b2d8c088086ee34aabefcb6b103c85690bbff52c1d38a.png",
+            cardName: "SECURITY!!",
+        },
+    ]
+
     // add more card types here
 };
 

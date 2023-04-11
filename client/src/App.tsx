@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
 import Footer from "./components/Footer";
+import ClassButtons from "./components/ClassButtons";
 
 interface Card {
   cardId: string;
@@ -28,18 +29,18 @@ function App(): JSX.Element {
   }, [classChoose]);
 
   // change class func
-  const changeClass = () => {
-    setClassChoose("druid");
-    // console.log(classChoose);
+  const changeClass = (c: string) => {
+    setClassChoose(c);
   };
 
   return (
     <div className="App">
       <h1>Festival of Legends Expansion</h1>
       <h2>{classChoose}</h2>
-      <button className="choose-button" onClick={() => changeClass()}>
+      <button className="choose-button" onClick={() => changeClass("druid")}>
         Druid
       </button>
+      <ClassButtons changeClass={changeClass} />
       <div className="card-grid">
         {cardData.map((element: Card) => {
           return (
