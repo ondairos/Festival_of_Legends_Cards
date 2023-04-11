@@ -37,9 +37,6 @@ function App(): JSX.Element {
     <div className="App">
       <h1>Festival of Legends Expansion</h1>
       <h2>{classChoose}</h2>
-      <button className="choose-button" onClick={() => changeClass("druid")}>
-        Druid
-      </button>
       <ClassButtons changeClass={changeClass} />
       <div className="card-grid">
         {cardData.map((element: Card) => {

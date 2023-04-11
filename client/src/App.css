@@ -28,6 +28,10 @@
   height: auto;
 }
 
+.card-image:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 860px) {
   .card-grid {
     grid-template-columns: repeat(3, 1fr);

@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css";
 
 interface Props {
   changeClass: (c: string) => void;
@@ -13,8 +14,11 @@ const ClassButtons: React.FC<Props> = ({ changeClass }) => {
       <button className="choose-button" onClick={() => changeClass("warlock")}>
         Warlock
       </button>
+      <button className="choose-button" onClick={() => changeClass("hunter")}>
+        Hunter
+      </button>
       <button
-        className="choose-button"
+        className="choose-button dh"
         onClick={() => changeClass("demon_hunter")}
       >
         Demon Hunter
