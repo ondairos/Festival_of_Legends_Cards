@@ -1,11 +1,12 @@
 import React from "react";
+import "./styles.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       {" "}
       <span>
-        Blizzard Festival of Legends Expansion. Ioannis Kantiloros 2023
+        Hearthstone Festival of Legends Expansion. Ondairos - <b>2023</b>.
       </span>{" "}
     </div>
   );
