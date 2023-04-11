@@ -1,4 +1,4 @@
-# HS Festival of Legends Full Stapp APP
+# HS Festival of Legends Full Stack APP
 
 ## Client
 
