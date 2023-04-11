@@ -4,10 +4,11 @@ import "./styles.css";
 const Footer = () => {
   return (
     <div className="footer">
-      {" "}
       <span>
-        Hearthstone Festival of Legends Expansion. Ondairos - <b>2023</b>.
-      </span>{" "}
+        2023 Created by <a href="https://github.com/ondairos">Ondairos</a>.
+      </span>
+      <br />
+      <span>Not affiliated with Blizzard Entertainment.</span>
     </div>
   );
 };
