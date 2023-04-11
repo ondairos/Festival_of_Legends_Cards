@@ -126,11 +126,45 @@ const card_data: CardData = {
             cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b676da51d880fdd8193458d5d0a3355ee14d73f6fbbeb230a97f94375f37d12.png",
             cardName: "Eye of Shadow",
         },
-        // add more cards here
         {
             cardId: "dh_card_id_3",
             cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b5742683d1bb2ec149b2d8c088086ee34aabefcb6b103c85690bbff52c1d38a.png",
             cardName: "SECURITY!!",
+        },
+        {
+            cardId: "dh_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ff7a0332f3785191515b46de71327732ba1c480ada83c59eb5677bd7515c946.png",
+            cardName: "Snakebite",
+        },
+        {
+            cardId: "dh_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9c0a4d91a6306f73bacb19fbc1aefa5714d796d260786e0e1ce4dd3a29b7d749.png",
+            cardName: "Rush the Stage",
+        },
+        {
+            cardId: "dh_card_id_6",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b747344243f368189990b19430b407d7d482774dd4bc1c6e947770458c0ea36c.png",
+            cardName: "Glaivetar",
+        },
+        {
+            cardId: "dh_card_id_7",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5eb7213a77b6efbb2d3ac9a2f3c68fe31f513afe77483aca066098469d0c340.png",
+            cardName: "Halveria Darkraven",
+        },
+        {
+            cardId: "dh_card_id_8",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89a1cf5db487bac7a32c18b753f54e2cd98f3846c7560f68493cadcb7a45a9a4.png",
+            cardName: "Instrument Smasher",
+        },
+        {
+            cardId: "dh_card_id_9",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84a3396f45af01a758788bfb5c936fb2c6256ab29083616961ab5a93e7ebff58.png",
+            cardName: "Going Down Swinging",
+        },
+        {
+            cardId: "dh_card_id_10",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be04ac51f483b76f079baa0487a411cdc311d599de5b0b31535301cdaf2a71a0.png",
+            cardName: "Guitar Soloist",
         },
     ],
     hunter: [
@@ -500,53 +534,201 @@ const card_data: CardData = {
     mage: [
         {
             cardId: "mage_card_id_1",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da0d855c603a539016adf3a272950a6949c7c477f6b06758e7e64f102faf15a6.png",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/60860c8ae48ff095263b687f351b6bf9cec9686f09191e4f8a52a2e965675e8c.png",
             cardName: "Synthesize",
         },
         {
             cardId: "mage_card_id_2",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf013b1407c08ebd7a947f6324d5b85b30921332658e07d25867f5f47e07f88c.png",
-            cardName: "Spotlight",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da57b0b5184703c1556ea327b93c571ac51c78c7c470314519fa01604e4483cf.png",
+            cardName: "Cosmic Keyboard",
         },
         {
             cardId: "mage_card_id_3",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb96fd4ad7abe25b2322d2df61fa756e944de280ccd9b353c245863444d1a4fa.png",
-            cardName: "Boogie Down",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43edd35578fa93313b7b01a163d6cb9e33ade85be20df48f581116f58d9a5126.png",
+            cardName: "Infinitze the Maxitude",
         },
         {
             cardId: "mage_card_id_4",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b4bac700ff605c9f3ed57e34267888f86bc82613e1219de888577265d33faff.png",
-            cardName: "Funkfin",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/20b181591844134462999da822682388c742446b3e43140f3be187ddaccac4eb.png",
+            cardName: "Rewind",
         },
         {
             cardId: "mage_card_id_5",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a134eb6dae73393f8a3d04876703f5943686f6fe3308c4ca48e07852aa3938f.png",
-            cardName: "Starlight Groove",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f55d5147613e67a0de1b2f0c5a0fdc0a419cb34acb4d5d9ea4f2373a096af91.png",
+            cardName: "Audio Splitter",
         },
         {
             cardId: "mage_card_id_6",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/46b7f27cb39e17f7769f0f25742e593cf5030850c2e42b9451f14e5694cf76ef.png",
-            cardName: "Jitterbug",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/51c4096ad05223c8b6e57871c8542f5cffaf4530bfc5d89503ac59d0d17ac7da.png",
+            cardName: "Holotechnician",
         },
         {
             cardId: "mage_card_id_7",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9005a6292b6ec9760a106408219562811f8b8ab8f6ac25647512676733bb346.png",
-            cardName: "Harmonic Disco",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/799cce9966b102b90d7aa85284b824f7fb55f5b48407afaaae2471e72fa67981.png",
+            cardName: "Lightshow",
         },
         {
             cardId: "mage_card_id_8",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7db46f19be7a81e75b9370537d597a0df6990d0f303193c1dd02a4214cd20c56.png",
-            cardName: "Kangor, Dancing King",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a1dc08a426440726e81583ff3748df3e1aafd3366026c182eb552df26aeec315.png",
+            cardName: "Keyboard Soloist",
         },
         {
             cardId: "mage_card_id_9",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81f10ebc2e8587184647a81c585ac0d328ebe56b391afbdbb66766abc783de56.png",
-            cardName: "Lead Dancer",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b323c86c7e74448c79f6af379e1db326ce1676f3a5ba1a6ed0bc3a757bc3bfc6.png",
+            cardName: "Volume Up",
         },
         {
             cardId: "mage_card_id_10",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14f9847b8610322afea5b0055a529603df0a2329851a8fe3cfc5b1db4360a1a1.png",
-            cardName: "Annoy-o-Troupe",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/38e774abee377f13e091cec5f3479170687859936e69094ccd9bf0d452ca9bcf.png",
+            cardName: "DJ Manastorm",
+        },
+    ],
+    neutral: [
+        {
+            cardId: "neutral_card_id_1",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f50065f17b6e09096473a7be84a118a74986828025826da46d7bccd8752dd440.png",
+            cardName: "Hipster",
+        },
+        {
+            cardId: "neutral_card_id_2",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8d3cc64720d4f6b17edec17572273074a5f423d146dfa26b750b96772d82d1e.png",
+            cardName: "Instrument Tech",
+        },
+        {
+            cardId: "neutral_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/997cc04984bda7a47c49fad4d1f36cd0ea8b231478b86c54e3d0f1230da58cbe.png",
+            cardName: "Party Animal",
+        },
+        {
+            cardId: "neutral_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c6f0488d298824143dfa745c590d3c5b54da469a721fe9124ae1ff4ab3ca5ef.png",
+            cardName: "Rolling Stone",
+        },
+        {
+            cardId: "neutral_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c500eb476b325dc9ad250aa8501f0dbb2b6f1adec737b32ae1a93570978d3b88.png",
+            cardName: "Stereo Totem",
+        },
+        {
+            cardId: "neutral_card_id_6",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/70f9ef19287db15875464aac6b1ae3e9a9fc26fdf1bbae7c49084ced09f37edf.png",
+            cardName: "Cowbell Soloist",
+        },
+        {
+            cardId: "neutral_card_id_7",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c103eb24566d977896ce3bd00736517d0d40bc0386aa98db6d441b33b3ba9d2.png",
+            cardName: "Festival Security",
+        },
+        {
+            cardId: "neutral_card_id_8",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3edfc4131b87398e9976bafea626a35d7057aef607cb2d83dc361099f566bfc5.png",
+            cardName: "Metrognome",
+        },
+        {
+            cardId: "neutral_card_id_9",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5881395e52ca1416d827d630317a776a4b205bc96b55c807cb12bf27da8ad981.png",
+            cardName: "Outfit Tailor",
+        },
+        {
+            cardId: "neutral_card_id_11",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/24e02ceb77b05f0ece8502ec6abf630a83debf3bdc8167b98b6955dcede58e6c.png",
+            cardName: "Paparazzi",
+        },
+        {
+            cardId: "neutral_card_id_12",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f43df8b9d849d420906913a6df83af12e95be5ec733c762ce5fd9bb702e0c0ad.png",
+            cardName: "Photographer Fizzle",
+        },
+        {
+            cardId: "neutral_card_id_13",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ced23b46db6c4c39eb9230a3fabaa283cc3423a8c095c85bb61847cd7aeb3ce1.png",
+            cardName: "Rowdy Fan",
+        },
+        {
+            cardId: "neutral_card_id_14",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c7ecf3012781b0fdecd173a1648298bd3ead79c9fdc1fd1cc8840db0fdc27c18.png",
+            cardName: "Static Waveform",
+        },
+        {
+            cardId: "neutral_card_id_15",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37ff9c15c480f6ae2221a409ad4eab108e8e3b312481a5a34f6394484621c7ba.png",
+            cardName: "Worgen Roadie",
+        },
+        {
+            cardId: "neutral_card_id_16",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d37d8ae66c228ed856b745e5c6e55d823b77f6ace0a192ced3acd9545232dc9.png",
+            cardName: "Candleraiser",
+        },
+        {
+            cardId: "neutral_card_id_17",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/161bb0a448944ec5ac43d271e322885f2b6b60d989ef62eb610fe3ea523dab26.png",
+            cardName: "Cover Arist",
+        },
+        {
+            cardId: "neutral_card_id_18",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca40cf2fd8c7cfc4fbca11e9a004f457c8b8f6aaecf6a543c7681b7e20e4b7ea.png",
+            cardName: "E.T.C Band Manager",
+        },
+        {
+            cardId: "neutral_card_id_19",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/35c1c3ab46fe3d66cbd95019224f91c271c589adb8227e033ce4388b448cd7b0.png",
+            cardName: "Freebird",
+        },
+        // ===============
+        {
+            cardId: "neutral_card_id_20",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f46fa537ae93fa306c0c2cf7dbe0ad5506164a8a7d53407a1c7aa7ea58d4eb09.png",
+            cardName: "March Seller",
+        },
+        {
+            cardId: "neutral_card_id_21",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/02a2064473a36beb6d154789f77653f69a8debee1bfb09da2fc457246853431e.png",
+            cardName: "Obsessive Fan",
+        },
+        {
+            cardId: "neutral_card_id_22",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57fa892f2a2220251b6be5b76743a8fb23106f906a93623149a8e495482bf2d8.png",
+            cardName: "Pozzik, Audio Engineer",
+        },
+        {
+            cardId: "neutral_card_id_23",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3202617018f8eeb43ee0898d384fb9a6f1040290879e68c9d867526d6061b39.png",
+            cardName: "Pyrotechnician",
+        },
+        {
+            cardId: "neutral_card_id_24",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/50fc2bb2844d7e4ae29398fef489333dd29bc3fdc07e5ac48ee300349e7d8d7b.png",
+            cardName: "Ghost Writer",
+        },
+        {
+            cardId: "neutral_card_id_25",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bbcc85356489397930a2fac30f2ffea4bc18ce706c3387d72acc296c9a82a972.png",
+            cardName: "Tony, King of Piracy",
+        },
+        {
+            cardId: "neutral_card_id_26",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b885e3a16ebf5d8c5acf89b0ccdd8398ae20cc1ed24a81be0509cc807deda65e.png",
+            cardName: "Unpopular Has-Been",
+        },
+        {
+            cardId: "neutral_card_id_27",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/150d279652e8727bdf4a7ac17e6c5f172a9ff6ddbd48f5edbc5e10a85aa6299a.png",
+            cardName: "The One-Amalgam Band",
+        },
+        {
+            cardId: "neutral_card_id_28",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21ab1396317708013a25899136d1ac29a1d9fa394a86ad8fd05cc07a347593e2.png",
+            cardName: "Concert Promo-Drake",
+        },
+        {
+            cardId: "neutral_card_id_29",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b06818003375577a7734ecea7e37c9b4289414f204998cc312481f0daf917ae5.png",
+            cardName: "Mish-Mash Mosher",
+        },
+        {
+            cardId: "neutral_card_id_30",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aa30df85ecf11782d77e13bb57585959c20b4d0f9f0cf2240d68d21fec833c25.png",
+            cardName: "Amplified Elekk",
         },
     ]
 
