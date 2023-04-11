@@ -9,7 +9,7 @@ export default defineConfig({
       '/api': {
         target: 'https://fol-api.onrender.com',
         changeOrigin: true,
-        secure: true,
+        secure: false,
         ws: true
       }
     }
