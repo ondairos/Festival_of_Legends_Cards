@@ -38,10 +38,44 @@ function App(): JSX.Element {
     .replace(/_/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
 
+  // which color
+  const color_class_picker = (class_name: string) => {
+    switch (class_name) {
+      case "warlock":
+        // return css for purple?
+        return "#8788EE";
+      case "rogue":
+        return "#FFF468";
+      case "mage":
+        return "#3FC7EB";
+      case "paladin":
+        return "#F48CBA";
+      case "hunter":
+        return "green";
+      case "warrior":
+        return "brown";
+      case "druid":
+        return "orange";
+      case "priest":
+        return "white";
+      case "shaman":
+        return "#018dff";
+      case "demon_hunter":
+        return "#A330C9";
+      case "death_knight":
+        return "#C41E3A";
+    }
+  };
+
   return (
     <div className="App">
       <h1>Hearthstone: Festival of Legends Expansion</h1>
-      <h2>{formatted_class_title}</h2>
+      <h2
+        className="form_class--title"
+        style={{ color: color_class_picker(classChoose) }}
+      >
+        {formatted_class_title}
+      </h2>
       <ClassButtons changeClass={changeClass} />
       <div className="card-grid">
         {cardData.map((element: Card) => {
