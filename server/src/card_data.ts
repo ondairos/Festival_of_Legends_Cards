@@ -731,8 +731,6 @@ const card_data: CardData = {
             cardName: "Amplified Elekk",
         },
     ]
-
-    // add more card types here
 };
 
 export default card_data;
