@@ -340,6 +340,110 @@ const card_data: CardData = {
             cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4260a902f5cd4e7a34372f70844bcde4fdee56ae4aa36b6fedb9238cf3bf98f.png",
             cardName: "Cinematic Necrotic Explosion",
         },
+    ],
+    rogue: [
+        {
+            cardId: "rogue_card_id_1",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/266d139a2379d859444218900224f0145b2866032398f958a405dd0d416917e5.png",
+            cardName: "Breakdance",
+        },
+        {
+            cardId: "rogue_card_id_2",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b21a65dfd478ec529dee3cb9a1990b16e5788bbb97d6ab7c68574418d84b6605.png",
+            cardName: "Mixtape",
+        },
+        {
+            cardId: "rogue_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e603f217103c4d6df2246daf6f42157c79b83de78fdd4b1b530f14b94125c712.png",
+            cardName: "Disc Jockey",
+        },
+        {
+            cardId: "rogue_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/646ac70075617266a62dbb5207ca1508aa113b2478719b398d96504cadf70ffc.png",
+            cardName: "Harmonic Hip Hop",
+        },
+        {
+            cardId: "rogue_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d8d2493650f32b73d3d7dccce1811aa9f97077476c0fdb7f9b169f51352350ac.png",
+            cardName: "Beatboxer",
+        },
+        {
+            cardId: "rogue_card_id_6",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc51f34ea572228de6db5f4c48c7ee1a594bde177b57c159e46aac8fd943a4b0.png",
+            cardName: "Bounce Around (ft. Garona)",
+        },
+        {
+            cardId: "rogue_card_id_7",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3840a99740103c2bd28b9b576f0193dded9c4eb547726c09a5f46260648c597.png",
+            cardName: "Mic Drop",
+        },
+        {
+            cardId: "rogue_card_id_8",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94e3dde9e12358017d7a1b343f3729d0e9349ca93d094fe58ea8f5d59aeabe91.png",
+            cardName: "Record Scratcher",
+        },
+        {
+            cardId: "rogue_card_id_9",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d6acb2189777ba990c761954694eadac6b6581d7b18e09201bac17bf9f63d83.png",
+            cardName: "Rhyme Spinner",
+        },
+        {
+            cardId: "rogue_card_id_10",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/914ccb2cbc4a379f91c8a0e52a7b6230f8852fac5229a6e6c2d9850c056599df.png",
+            cardName: "MC Blingtron",
+        },
+    ],
+    priest: [
+        {
+            cardId: "priest_card_id_1",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/266d139a2379d859444218900224f0145b2866032398f958a405dd0d416917e5.png",
+            cardName: "Breakdance",
+        },
+        {
+            cardId: "priest_card_id_2",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b21a65dfd478ec529dee3cb9a1990b16e5788bbb97d6ab7c68574418d84b6605.png",
+            cardName: "Mixtape",
+        },
+        {
+            cardId: "priest_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e603f217103c4d6df2246daf6f42157c79b83de78fdd4b1b530f14b94125c712.png",
+            cardName: "Disc Jockey",
+        },
+        {
+            cardId: "priest_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/646ac70075617266a62dbb5207ca1508aa113b2478719b398d96504cadf70ffc.png",
+            cardName: "Harmonic Hip Hop",
+        },
+        {
+            cardId: "priest_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d8d2493650f32b73d3d7dccce1811aa9f97077476c0fdb7f9b169f51352350ac.png",
+            cardName: "Beatboxer",
+        },
+        {
+            cardId: "priest_card_id_6",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc51f34ea572228de6db5f4c48c7ee1a594bde177b57c159e46aac8fd943a4b0.png",
+            cardName: "Bounce Around (ft. Garona)",
+        },
+        {
+            cardId: "priest_card_id_7",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3840a99740103c2bd28b9b576f0193dded9c4eb547726c09a5f46260648c597.png",
+            cardName: "Mic Drop",
+        },
+        {
+            cardId: "priest_card_id_8",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94e3dde9e12358017d7a1b343f3729d0e9349ca93d094fe58ea8f5d59aeabe91.png",
+            cardName: "Record Scratcher",
+        },
+        {
+            cardId: "priest_card_id_9",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d6acb2189777ba990c761954694eadac6b6581d7b18e09201bac17bf9f63d83.png",
+            cardName: "Rhyme Spinner",
+        },
+        {
+            cardId: "priest_card_id_10",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/914ccb2cbc4a379f91c8a0e52a7b6230f8852fac5229a6e6c2d9850c056599df.png",
+            cardName: "MC Blingtron",
+        },
     ]
 
     // add more card types here

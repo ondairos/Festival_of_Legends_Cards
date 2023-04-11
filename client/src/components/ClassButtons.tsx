@@ -23,6 +23,9 @@ const ClassButtons: React.FC<Props> = ({ changeClass }) => {
       <button className="choose-button" onClick={() => changeClass("warrior")}>
         Warrior
       </button>
+      <button className="choose-button" onClick={() => changeClass("rogue")}>
+        Rogue
+      </button>
       <button
         className="choose-button dh"
         onClick={() => changeClass("demon_hunter")}
