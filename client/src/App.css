@@ -39,9 +39,6 @@
 
 /* class title */
 .form_class--title {
-  /* -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black; */
-  /* filter: drop-shadow(rgba(0, 0, 0, 0.8) 0px 3px 3px); */
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
 }
