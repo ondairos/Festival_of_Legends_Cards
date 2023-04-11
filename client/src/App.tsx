@@ -40,7 +40,7 @@ function App(): JSX.Element {
 
   return (
     <div className="App">
-      <h1>Festival of Legends Expansion</h1>
+      <h1>Hearthstone: Festival of Legends Expansion</h1>
       <h2>{formatted_class_title}</h2>
       <ClassButtons changeClass={changeClass} />
       <div className="card-grid">

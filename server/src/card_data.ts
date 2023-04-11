@@ -322,7 +322,7 @@ const card_data: CardData = {
         },
         {
             cardId: "dk_card_id_7",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd7eb4b6358a310d129f2cac25c853ed394b11a2910b4534162b9eafa657ce03.png",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/45885dfbf9602466f5378b42411ed838ca3c44e427c310cdf12dc8d65c03e3ed.png",
             cardName: "Boneshredder",
         },
         {
@@ -396,53 +396,157 @@ const card_data: CardData = {
     priest: [
         {
             cardId: "priest_card_id_1",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/266d139a2379d859444218900224f0145b2866032398f958a405dd0d416917e5.png",
-            cardName: "Breakdance",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3e1fb97f9426c5f2b0252496c1bff0e47e726de3b1887b6a50ac8c3d5c30e60f.png",
+            cardName: "Fan Club",
         },
         {
             cardId: "priest_card_id_2",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b21a65dfd478ec529dee3cb9a1990b16e5788bbb97d6ab7c68574418d84b6605.png",
-            cardName: "Mixtape",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2fd9132d8ac199cdd339a4382c4a1811dbba89ee5941500c0afec147209abd59.png",
+            cardName: "Idol's Adoration",
         },
         {
             cardId: "priest_card_id_3",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e603f217103c4d6df2246daf6f42157c79b83de78fdd4b1b530f14b94125c712.png",
-            cardName: "Disc Jockey",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b9131747bc8c576ac0408f214e9a7bc9cbfa75903978f6bb6377f0bcb1d73f7.png",
+            cardName: "Dreamboat",
         },
         {
             cardId: "priest_card_id_4",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/646ac70075617266a62dbb5207ca1508aa113b2478719b398d96504cadf70ffc.png",
-            cardName: "Harmonic Hip Hop",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00cd7a8fe39b1699a024b53ee3cc7573804845576656179abc142bb3df78ac0d.png",
+            cardName: "Power Chord: Synchronize",
         },
         {
             cardId: "priest_card_id_5",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d8d2493650f32b73d3d7dccce1811aa9f97077476c0fdb7f9b169f51352350ac.png",
-            cardName: "Beatboxer",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72b0712f0200c300e6cc1aecc45e73a31946f68ff4e2ecad72178634275dd35b.png",
+            cardName: "Heartthrob",
         },
         {
             cardId: "priest_card_id_6",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc51f34ea572228de6db5f4c48c7ee1a594bde177b57c159e46aac8fd943a4b0.png",
-            cardName: "Bounce Around (ft. Garona)",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4268c2059848db403f011411cf7ee0671fd155ad84999d41c8eeda87c0b65c2e.png",
+            cardName: "Love Everlasting",
         },
         {
             cardId: "priest_card_id_7",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3840a99740103c2bd28b9b576f0193dded9c4eb547726c09a5f46260648c597.png",
-            cardName: "Mic Drop",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/55d4ec700ec2dffcf38cd12197bce50551d8ad68d449ca0557041227ad61fc11.png",
+            cardName: "Shadow Chord: Distort",
         },
         {
             cardId: "priest_card_id_8",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94e3dde9e12358017d7a1b343f3729d0e9349ca93d094fe58ea8f5d59aeabe91.png",
-            cardName: "Record Scratcher",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d9df419a59bdf8f20f53cac701d53dfa52de0c373e940b1d2e66d9ef4eb39e24.png",
+            cardName: "Fight Over Me",
         },
         {
             cardId: "priest_card_id_9",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d6acb2189777ba990c761954694eadac6b6581d7b18e09201bac17bf9f63d83.png",
-            cardName: "Rhyme Spinner",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84b9e93e63fe2c06c4a166e83e133b4fa2c6b69c0f3db49dc66caaf34aea9fba.png",
+            cardName: "Heartbreaker Hedanis",
         },
         {
             cardId: "priest_card_id_10",
-            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/914ccb2cbc4a379f91c8a0e52a7b6230f8852fac5229a6e6c2d9850c056599df.png",
-            cardName: "MC Blingtron",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1ce162b01663097a45273415677d945aeed56f957839e161c905fb397e737dca.png",
+            cardName: "Harmonic Pop",
+        },
+    ],
+    paladin: [
+        {
+            cardId: "pala_card_id_1",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da0d855c603a539016adf3a272950a6949c7c477f6b06758e7e64f102faf15a6.png",
+            cardName: "Disco Maul",
+        },
+        {
+            cardId: "pala_card_id_2",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf013b1407c08ebd7a947f6324d5b85b30921332658e07d25867f5f47e07f88c.png",
+            cardName: "Spotlight",
+        },
+        {
+            cardId: "pala_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb96fd4ad7abe25b2322d2df61fa756e944de280ccd9b353c245863444d1a4fa.png",
+            cardName: "Boogie Down",
+        },
+        {
+            cardId: "pala_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b4bac700ff605c9f3ed57e34267888f86bc82613e1219de888577265d33faff.png",
+            cardName: "Funkfin",
+        },
+        {
+            cardId: "pala_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a134eb6dae73393f8a3d04876703f5943686f6fe3308c4ca48e07852aa3938f.png",
+            cardName: "Starlight Groove",
+        },
+        {
+            cardId: "pala_card_id_6",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/46b7f27cb39e17f7769f0f25742e593cf5030850c2e42b9451f14e5694cf76ef.png",
+            cardName: "Jitterbug",
+        },
+        {
+            cardId: "pala_card_id_7",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9005a6292b6ec9760a106408219562811f8b8ab8f6ac25647512676733bb346.png",
+            cardName: "Harmonic Disco",
+        },
+        {
+            cardId: "pala_card_id_8",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7db46f19be7a81e75b9370537d597a0df6990d0f303193c1dd02a4214cd20c56.png",
+            cardName: "Kangor, Dancing King",
+        },
+        {
+            cardId: "pala_card_id_9",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81f10ebc2e8587184647a81c585ac0d328ebe56b391afbdbb66766abc783de56.png",
+            cardName: "Lead Dancer",
+        },
+        {
+            cardId: "pala_card_id_10",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14f9847b8610322afea5b0055a529603df0a2329851a8fe3cfc5b1db4360a1a1.png",
+            cardName: "Annoy-o-Troupe",
+        },
+    ],
+    mage: [
+        {
+            cardId: "mage_card_id_1",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da0d855c603a539016adf3a272950a6949c7c477f6b06758e7e64f102faf15a6.png",
+            cardName: "Synthesize",
+        },
+        {
+            cardId: "mage_card_id_2",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf013b1407c08ebd7a947f6324d5b85b30921332658e07d25867f5f47e07f88c.png",
+            cardName: "Spotlight",
+        },
+        {
+            cardId: "mage_card_id_3",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb96fd4ad7abe25b2322d2df61fa756e944de280ccd9b353c245863444d1a4fa.png",
+            cardName: "Boogie Down",
+        },
+        {
+            cardId: "mage_card_id_4",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b4bac700ff605c9f3ed57e34267888f86bc82613e1219de888577265d33faff.png",
+            cardName: "Funkfin",
+        },
+        {
+            cardId: "mage_card_id_5",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a134eb6dae73393f8a3d04876703f5943686f6fe3308c4ca48e07852aa3938f.png",
+            cardName: "Starlight Groove",
+        },
+        {
+            cardId: "mage_card_id_6",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/46b7f27cb39e17f7769f0f25742e593cf5030850c2e42b9451f14e5694cf76ef.png",
+            cardName: "Jitterbug",
+        },
+        {
+            cardId: "mage_card_id_7",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9005a6292b6ec9760a106408219562811f8b8ab8f6ac25647512676733bb346.png",
+            cardName: "Harmonic Disco",
+        },
+        {
+            cardId: "mage_card_id_8",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7db46f19be7a81e75b9370537d597a0df6990d0f303193c1dd02a4214cd20c56.png",
+            cardName: "Kangor, Dancing King",
+        },
+        {
+            cardId: "mage_card_id_9",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81f10ebc2e8587184647a81c585ac0d328ebe56b391afbdbb66766abc783de56.png",
+            cardName: "Lead Dancer",
+        },
+        {
+            cardId: "mage_card_id_10",
+            cardImg: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14f9847b8610322afea5b0055a529603df0a2329851a8fe3cfc5b1db4360a1a1.png",
+            cardName: "Annoy-o-Troupe",
         },
     ]
 

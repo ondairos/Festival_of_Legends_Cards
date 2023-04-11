@@ -7,7 +7,7 @@ interface Props {
 
 const ClassButtons: React.FC<Props> = ({ changeClass }) => {
   return (
-    <div>
+    <div className="button_container">
       <button className="choose-button" onClick={() => changeClass("druid")}>
         Druid
       </button>
@@ -25,6 +25,12 @@ const ClassButtons: React.FC<Props> = ({ changeClass }) => {
       </button>
       <button className="choose-button" onClick={() => changeClass("rogue")}>
         Rogue
+      </button>
+      <button className="choose-button" onClick={() => changeClass("paladin")}>
+        Paladin
+      </button>
+      <button className="choose-button" onClick={() => changeClass("priest")}>
+        Priest
       </button>
       <button
         className="choose-button dh"

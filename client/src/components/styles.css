@@ -1,8 +1,12 @@
+.button_container {
+  margin: 18px;
+}
+
 .choose-button {
   margin: 3px;
   width: 85px;
   height: 50px;
-  border: none;
+  border: 2px rgb(75, 75, 75) solid;
   outline: none;
   color: #fff;
   background: #111;
@@ -10,6 +14,7 @@
   position: relative;
   z-index: 0;
   border-radius: 10px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.8) 0px 3px 3px);
 }
 
 .choose-button:before {
