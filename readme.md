@@ -1,5 +1,8 @@
 # HS Festival of Legends Full Stack APP
 
+Frontend deployed at: [https://luxury-taffy-98aa2d.netlify.app/]
+Backend deployed at: [https://fol-api.onrender.com/api/mage]
+
 ## Client
 Client-Side Code for Hearthstone: Festival of Legends Expansion
 
