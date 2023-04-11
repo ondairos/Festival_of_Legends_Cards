@@ -36,9 +36,20 @@ Overall, the application allows the user to view Hearthstone cards for different
 
 ## Server
 
-- NodeJS
-- ExpressJS
-- Custom API
+Node.js server-side written in TypeScript using Express.js framework. Provides two endpoints for an API:
+
+    GET /api - Returns a simple message "Hello to Expansion Festival of Legends!" when the root URL is accessed.
+    GET /api/:class - Returns a JSON response containing an array of card data corresponding to the class name passed as a parameter in the URL.
+
+The card_data is imported from a separate file named card_data.ts, which exports an object containing arrays of card objects. The card_data.ts file also defines the types for the Card and CardData.
+
+The server uses the cors package to allow cross-origin requests and the axios package to make HTTP requests to other APIs if needed. The server is configured to run on port 5000, but it can also run on the process.env.PORT if it is set.
+
+The server has three commands:
+
+    npm start - Starts the server in production mode, running the compiled JavaScript code.
+    npm run dev - Starts the server in development mode, using nodemon to automatically restart the server when changes are detected in the TypeScript code.
+    npm run build - Builds the TypeScript code and creates a dist directory with the compiled JavaScript code.
 
 ## Author
 
