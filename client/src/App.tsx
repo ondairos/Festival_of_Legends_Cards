@@ -3,16 +3,12 @@ import "./App.css";
 import axios from "axios";
 import Footer from "./components/Footer";
 import ClassButtons from "./components/ClassButtons";
+import CardGrid from "./components/CardGrid";
 
 interface Card {
   cardId: string;
   cardImg: string;
   cardName: string;
-}
-
-// cardData type
-interface CardData {
-  [key: string]: Card[];
 }
 
 function App(): JSX.Element {
@@ -77,16 +73,7 @@ function App(): JSX.Element {
         {formatted_class_title}
       </h2>
       <ClassButtons changeClass={changeClass} />
-      <div className="card-grid">
-        {cardData.map((element: Card) => {
-          return (
-            <div className="card" key={element.cardId}>
-              <img className="card-image" src={element.cardImg} alt="image" />
-              <li className="card-name">{element.cardName}</li>
-            </div>
-          );
-        })}
-      </div>
+      <CardGrid cardData={cardData} />
       <Footer />
     </div>
   );
