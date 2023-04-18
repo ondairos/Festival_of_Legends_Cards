@@ -30,22 +30,8 @@ Scripts
 
 
 
-This is the client-side code for the Hearthstone: Festival of Legends Expansion web application. The application is built using React and Axios for data fetching.
-Dependencies
-
-The following dependencies are used in this project:
-
-    Axios: A Promise based HTTP client for the browser and node.js
-    React: A JavaScript library for building user interfaces
-    React-DOM: A package that serves as the entry point of the DOM-related rendering paths
-
-Dev Dependencies
-
-    @types/react: TypeScript definitions for React
-    @types/react-dom: TypeScript definitions for React-DOM
-    @vitejs/plugin-react: A Vite plugin that enables the use of React
-    Typescript: A typed superset of JavaScript that compiles to plain JavaScript
-    Vite: A build tool that focuses on speed and simplicity
+This is the client-side code for the Hearthstone: Festival of Legends E
+    
 
 Scripts
 
